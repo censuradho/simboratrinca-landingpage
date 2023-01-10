@@ -2,7 +2,7 @@ import { styled } from "stitches.config";
 
 export const Container = styled('div', {
   width: '100%',
-  maxWidth: '50rem',
+  maxWidth: '40rem',
   margin: '0 auto',
   padding: '0 1rem',
   '@table-min': {
@@ -10,10 +10,10 @@ export const Container = styled('div', {
 
   },
   '@laptops-min': {
-    maxWidth: '75rem'
+    maxWidth: '70rem'
   },
 
   '@desktop-min': {
-    maxWidth: '92.5rem'
+    maxWidth: '80rem'
   }
 })

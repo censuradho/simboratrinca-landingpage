@@ -17,6 +17,9 @@ export const CardList = styled('ul', {
   gap: '2rem',
 
   '@table-max': {
+    flexWrap: 'wrap'
+  },
+  '@laptops-max': {
     flexDirection: 'column',
     alignItems: 'center',
   } 

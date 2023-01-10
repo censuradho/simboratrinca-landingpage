@@ -7,7 +7,8 @@ export const Section = styled('section', {
 export const CarouselContainer = styled('div', {
   paddingLeft: '1rem',
   position: 'relative',
-
+  cursor: 'pointer',
+  
   '@table-min': {
     paddingLeft: '2.5rem'
   },

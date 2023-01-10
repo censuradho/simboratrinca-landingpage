@@ -92,7 +92,7 @@ export function Bonus () {
               "@table-min": 'row'
             }}
           >
-            <Image src="/diastase.png" width={300} height={330} alt="ebook" />
+            <Image src="/diastase.png" style={{ objectFit: 'contain' }} width={300} height={330} alt="ebook" />
             <Box flexDirection="column">
               <Styles.Number>#4</Styles.Number>
               <Styles.Call>Diástase</Styles.Call>

@@ -11,7 +11,7 @@ export function Icons (props: IconsProps) {
 
   return (
     <Component 
-      preserveAspectRatio="true"
+      preserveAspectRatio="xMidYMid meet"
       style={{
         width: size,
         height: 'auto'
