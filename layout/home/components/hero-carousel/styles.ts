@@ -28,24 +28,4 @@ export const Figure = styled('figure', {
 })
 
 export const Banner = styled('div', {
-
-
-
-})
-
-export const Range = styled('div', {
-  width: '100%',
-  height: '4.375rem',
-  background: '$primary',
-  display: 'flex',
-  alignItems: 'center',
-
-})
-
-export const RangeText = styled('strong', {
-  fontSize: '1.5rem',
-  color: '$background',
-  whiteSpace: 'nowrap',
-  display: 'block',
-  textTransform: 'uppercase'
 })
